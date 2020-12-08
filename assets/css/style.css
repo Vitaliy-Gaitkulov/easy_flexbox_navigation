@@ -3,6 +3,10 @@
   padding: 0;
 }
 body{
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
@@ -51,5 +55,14 @@ body{
   border-radius: 5px;
   border: 2px solid white;
   padding: 5px;
+}
+
+.footer-list{
+  background :#262626;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 15px;
 }
 
